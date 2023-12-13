@@ -1,0 +1,108 @@
+/* BREADCRUMBS */
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+#breadcrumbs{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#containerCategory{
+  display:flex;
+}
+
+#repartoMindhunter h1{
+  background: aliceblue;
+}
+
+#repartoMindhunter{
+  padding: 0 20px 0 20px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* Reparto/Cast DIV */
+.repartoDiv{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.repartoDiv img{
+  width:200px;
+  max-height: 290px;
+  min-height: 290px;
+}
+
+.repartoDiv div{
+  padding:10px;
+}
+
+.repartoDiv p{
+  text-align: center;
+}
+
+.hoverDivDetail:hover{
+  background-color: rgb(49, 48, 48);
+  text-decoration: none;
+  color:white !important;
+}
+
+.hoverDivDetail{
+  text-decoration: none;
+  color:black;
+}
+
+.greyColor{
+  color:rgb(180, 180, 180);
+  font-size:16px;
+}
+
+.categoriaAnecdotas{
+  padding: 0 20px 0 20px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.categoriaAnecdotas h1{
+  background: aliceblue;
+}
+
+.noDecoBlack{
+  text-decoration: none;
+  color:black;
+}
+
+.noDecoBlack:hover{
+  color:rgba(0, 0, 0, 0.322)
+}

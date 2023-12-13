@@ -1,0 +1,149 @@
+/* BREADCRUMBS */
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  #breadcrumbs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #container-slider{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 50%;
+    min-height: 50%;
+  }
+
+  .slider-nav {
+    visibility: visible;
+  }
+/* QUOTE */
+  q {
+    font-style: italic;
+  }
+  
+  .more {display: none;}
+
+/* Read more button */
+.myBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  cursor:pointer;
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.myBtn:hover {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+/* h1 */
+#sinopsisInfo h1{
+  background: aliceblue;
+}
+
+#repartoMindhunter h1{
+  background: aliceblue;
+}
+
+#container-recap h1{
+  background: aliceblue;
+}
+
+#container-slider h1{
+  background: aliceblue;
+}
+
+/* Diferent containers of this page */
+#container-recap{
+  padding: 0 20px 0 20px;
+}
+
+#sinopsisInfo{
+  padding: 0 20px 0 20px;
+}
+
+#repartoMindhunter{
+  padding: 0 20px 0 20px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* Reparto/Cast DIV */
+.repartoDiv{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.repartoDiv img{
+  width:200px;
+  max-height: 290px;
+  min-height: 290px;
+}
+
+.repartoDiv div{
+  padding:10px;
+}
+
+.repartoDiv p{
+  text-align: center;
+}
+
+.personajeReparto{
+  color:#6E6D70;
+}
+
+#trailerTemporadas{
+  padding:0 20px 0 20px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#trailerTemporadas h1{
+  background: aliceblue;
+}
+
+.blueish{
+  background-color: #b1d3f17a !important;
+}

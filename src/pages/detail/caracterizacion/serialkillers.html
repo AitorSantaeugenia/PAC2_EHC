@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC1 - Eines HTML i CSS I</title>
+    <link rel="stylesheet" href="./../../../styles/styles.css" />
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./styles.css"></link>
+    <!-- FA FA icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div id="containerLogo">
+            <a href="./../../../index.html" class="logo"><img src="./../../../assets/images/mindhunter_logo.svg" id="imageLogo" alt="Mindhunter logo" imgtype="2" onmouseover="hoverImage(this, 2);" onmouseout="unhoverImage(this, 2);"/></a>
+        </div>
+
+        <nav class="header-right">
+            <a href="./../../../index.html">Inicio</a>
+            <a  class="active" href="./../../category/categoria.html">Personajes y anécdotas</a>
+            <a href="./../../presentation/presentacion.html">Sobre la serie</a>
+            <a href="./../../links/enlaces.html">Enlaces</a>
+        </nav>
+    </header>
+
+    <!-- CONTAINER -->
+    <main id="container">
+        <div id="breadcrumbs">
+            <ul class="breadcrumb">
+                <li><a href="./../../../index.html">Inicio</a></li>
+                <li><a href="./../../category/categoria.html">Personajes y anécdotas</a></li>
+                <li>Serial killers</li>
+            </ul>
+        </div>
+        <h1>DETALLE - Caracterización</h1>
+        <h3 class="greyColor">Personajes secundarios - Serial killers</h3>
+
+        <include src="src/components/caracterizacion2.html"></include>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>PAC#1 - Eines HTML i CSS</h3>
+            <p>Página web creada por <a href="https://github.com/AitorSantaeugenia" target="_blank" class="noStyle">Aitor J. Santaeugenia Marí</a> para la PAC#1 de la asignatura <em>Eines HTML i CSS</em> para el máster de Desarrollo de aplicaciones y sitios web de la <a href="https://www.uoc.edu/portal/ca/index.html" target="_blank" class="noStyle"><em>Universidad Oberta de Catalunya.</em></a></p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/SantaeugeniaJ" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UClCOBqM-8Tpm9VFIoKk5cKQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aitorjsantaeugenia/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://github.com/AitorSantaeugenia" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>CC BY-NC-SA | <a href="https://github.com/AitorSantaeugenia" target="_blank">Aitor J. Santaeugenia Marí</a></p>
+        </div>
+
+    </footer>
+</body>
+</html>
