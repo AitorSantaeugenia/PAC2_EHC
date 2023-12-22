@@ -19,5 +19,4 @@
 ```
 
 ## Deployment
-- Vercel: 
-- Netlify: 
+- Netlify: https://pac2-ech.netlify.app/
