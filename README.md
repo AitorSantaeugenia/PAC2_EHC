@@ -1,6 +1,6 @@
-# PAC#1 - Eines HTML i CSS I
+# PAC#2 - Eines HTML i CSS I
 
-- Realització PAC#1 emprant un boilerplate de PARCEL
+- Realització PAC#2 emprant com a boilerplate la PAC#1
 
 ## Dependencies
 
@@ -19,5 +19,5 @@
 ```
 
 ## Deployment
-- Vercel: https://pac-1-ehci.vercel.app/
-- Netlify: https://pec1-ehc.netlify.app/
+- Vercel: 
+- Netlify: 

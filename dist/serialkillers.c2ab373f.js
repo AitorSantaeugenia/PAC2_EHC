@@ -576,6 +576,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"c5pc4":[function(require,module,exports) {
 
-},{}]},["2G61B","c5pc4"], "c5pc4", "parcelRequirea87c")
+},{}]},["2G61B","c5pc4"], "c5pc4", "parcelRequiredfe0")
 
 //# sourceMappingURL=serialkillers.c2ab373f.js.map
