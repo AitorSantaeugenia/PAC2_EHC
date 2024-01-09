@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "npm-run-all clean parcel:build --ignore-scripts",
+    "build": "npm-run-all clean parcel:build",
     "parcel:build": "parcel build src/index.html --target web",
     "clean": "rimraf dist .cache .cache-loader .parcel-cache"
   },
@@ -34,7 +34,7 @@
   "dependencies": {
     "npm-run-all": "^4.1.5",
     "rimraf": "^5.0.5",
-    "sharp": "0.33.1",
+    "sharp": "^0.33.1",
     "swiffy-slider": "^1.6.0"
   }
 }
