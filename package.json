@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "npm-run-all clean parcel:build",
+    "build": "npm-run-all clean parcel:build --ignore-scripts",
     "parcel:build": "parcel build src/index.html --target web",
     "clean": "rimraf dist .cache .cache-loader .parcel-cache"
   },
