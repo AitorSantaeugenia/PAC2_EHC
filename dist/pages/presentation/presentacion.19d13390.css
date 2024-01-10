@@ -52,11 +52,11 @@ q {
 
 .myBtn {
   cursor: pointer;
-  color: #dfdedf;
+  color: #fff;
   -webkit-user-select: none;
   user-select: none;
   touch-action: manipulation;
-  background: #6e6d70;
+  background: #292929;
   border: none;
   border-radius: 6px;
   flex-direction: column;
