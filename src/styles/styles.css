@@ -284,7 +284,7 @@ footer{
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
-  color: #cacdd2;
+  color: white;
 }
 .socials{
   list-style: none;
@@ -372,6 +372,10 @@ footer{
 .noStyle{
   text-decoration:none;
   color:white;
+}
+
+.textBlue{
+  color: #44bae8;
 }
 
 /* MEDIA QUERIES */
