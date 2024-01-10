@@ -350,6 +350,7 @@ footer {
 
 .textBlue {
   color: #44bae8;
+  text-decoration: underline !important;
 }
 
 @media screen and (width <= 500px) {

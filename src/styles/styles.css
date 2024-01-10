@@ -376,6 +376,7 @@ footer{
 
 .textBlue{
   color: #44bae8;
+  text-decoration: underline !important;
 }
 
 /* MEDIA QUERIES */
