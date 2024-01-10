@@ -36,8 +36,8 @@
         <div id="poster2-container">
             <figure>
                 <picture>
-                    <source srcset="./assets/images/mindhunter_poster_800.webp" media="(min-width: 850px)" />
-                    <source srcset="./assets/images/mindhunter_poster_500.webp" media="(min-width: 500px)" />
+                    <source srcset="./assets/images/mindhunter_poster_800.webp" media="(max-width: 850px)" />
+                    <source srcset="./assets/images/mindhunter_poster_500.webp" media="(max-width: 500px)" />
                     <img loading="lazy" src="./assets/images/mindhunter_poster.webp" alt="Mindhunter poster" class="posterImage2" id="imagePoster2" width="100%" height="100%">
                   </picture>
                 <figcaption id="imageTrailerFigcaption2"> Póster oficial de Mindhunter, temporada 2. | Imagen de <a href="https://www.telegraph.co.uk/tv/2019/08/17/mindhunter-season-2-netflix-review-fascinating-remarkable-show/" target="_blank">The Telegraph</a></figcaption>
@@ -57,7 +57,7 @@
                 <div class="containerImage" onmouseover="addOverlay(this, event)" onmouseleave="removeOverlay(this)">
                     <picture>
                         <source srcset="./assets/images/mindhunter-poster-2_800.webp" media="(max-width: 850px)" />
-                        <source srcset="./assets/images/mindhunter-poster-2_500.webp" media="(min-width: 500px)" />
+                        <source srcset="./assets/images/mindhunter-poster-2_500.webp" media="(max-width: 500px)" />
                         <img loading="lazy" src="./assets/images/mindhunter-poster-2.webp" alt="Mindhunter poster" onclick="changeToVid(this)" class="posterImage" id="imagePoster" width="100%" height="100%">
                       </picture>
                     <div class="overlay hidden" id="overlayDiv" onclick="changeToVid(this)"><p class="textOverlay">Ver teaser</p></div>
