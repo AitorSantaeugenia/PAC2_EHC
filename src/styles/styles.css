@@ -313,9 +313,9 @@ footer{
   transition: color .4s ease;
 }
 
-.socials a:hover i{
+/* .socials a:hover i{
   color: aqua;
-}
+} */
 
 .footer-bottom{
   background: #373737;

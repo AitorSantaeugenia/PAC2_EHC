@@ -289,10 +289,6 @@ footer {
   transition: color .4s;
 }
 
-.socials a:hover i {
-  color: #0ff;
-}
-
 .footer-bottom {
   text-align: center;
   background: #373737;
